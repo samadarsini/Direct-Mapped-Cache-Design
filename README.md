@@ -16,7 +16,8 @@ This project implements a direct-mapped cache architecture using VHDL, targeting
 
 ## Architecture Diagram
 ![Chip Architecture](./architecture/architecture.png)
-*Figure: It consists of Register cells for address registers and data regsiters, 16 byte cache, cache decoders, Hit/ Miss checker, state machine. All combined and connected as follows gives us the final chip which performs the four operations of cache.
+
+It consists of Register cells for address registers and data regsiters, 16 byte cache, cache decoders, Hit/ Miss checker, state machine. All combined and connected as follows gives us the final chip which performs the four operations of cache.
 
 ## Summary of Folders
 - codes – Contains all VHDL modules such as chip.vhd, chip_test.vhd, statemachine.vhd and individual components.
